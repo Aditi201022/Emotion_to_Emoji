@@ -62,7 +62,7 @@ function gotResult(error, results){
 }
 
 function speak(){
-    var synth = windo.speechSynthesis;
+    var synth = window.speechSynthesis;
     speak_data_1 = "The first predicttion is " + prediction_1;
     speak_data_2 = "And the second prediction is " + prediction_2;
     var utterThis = new SpeechSynthesisUtterance(speak_data_1 + speak_data_2);
